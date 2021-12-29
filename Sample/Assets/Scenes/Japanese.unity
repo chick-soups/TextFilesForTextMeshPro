@@ -1,0 +1,717 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &818287412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 818287414}
+  - component: {fileID: 818287413}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &818287413
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818287412}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &818287414
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818287412}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &929484280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 929484281}
+  - component: {fileID: 929484283}
+  - component: {fileID: 929484282}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &929484281
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929484280}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2054681447}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &929484282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929484280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\u4E16\u754C\u4E2D\u306EPlayStation\xAE.Blog\u8AAD\u8005\u306E\u6295\u7968\u306B\u3088\u3063\u3066\u3001\u4ECA\u5E74\u6700\u3082\u512A\u308C\u305F\u30BF\u30A4\u30C8\u30EB\u3092\u6C7A\u3081\u308B\u6295\u7968\u30A4\u30D9\u30F3\u30C8\uFF62PlayStation\xAE.Blog
+    \u30B2\u30FC\u30E0\u30FB\u30AA\u30D6\u30FB\u30B6\u30FB\u30A4\u30E4\u30FC 2021\uFF63\u3002\u3044\u3088\u3044\u3088\u3001\u516816\u90E8\u9580\u306E\u53D7\u8CDE\u30BF\u30A4\u30C8\u30EB\u3092\u767A\u8868\u3057\u307E\u3059\u3002\n\n\u4ECA\u5E74\u3082\u7686\u3055\u3093\u304B\u3089\u305F\u304F\u3055\u3093\u306E\u6295\u7968\u3092\u3044\u305F\u3060\u304D\u3001\u7DE0\u3081\u5207\u308A\u76F4\u524D\u307E\u3067\u9806\u4F4D\u304C\u5909\u52D5\u3059\u308B\u306A\u3069\u3001\u8907\u6570\u306E\u30AB\u30C6\u30B4\u30EA\u30FC\u3067\u767D\u71B1\u3057\u305F\u6226\u3044\u304C\u898B\u3089\u308C\u307E\u3057\u305F\u3002\u6295\u7968\u306B\u53C2\u52A0\u3057\u3066\u304F\u3060\u3055\u3063\u305F\u7686\u3055\u3093\u306B\u611F\u8B1D\u3059\u308B\u3068\u3068\u3082\u306B\u3001\u30CE\u30DF\u30CD\u30FC\u30C8\u4F5C\u54C1\u3092\u5236\u4F5C\u3057\u3001\u4ECA\u5E74\u3082\u30B2\u30FC\u30E0\u696D\u754C\u306E\u767A\u5C55\u306B\u8CA2\u732E\u3057\u3066\u304F\u3060\u3055\u3063\u305F\u30BD\u30D5\u30C8\u30A6\u30A7\u30A2\u30E1\u30FC\u30AB\u30FC\u5404\u793E\u306E\u7686\u3055\u3093\u306B\u3082\u304A\u793C\u3092\u7533\u3057\u4E0A\u3052\u307E\u3059\u3002\n\n\u305D\u308C\u3067\u306F\u3001\u53D7\u8CDE\u30BF\u30A4\u30C8\u30EB\u306E\u767A\u8868\u3067\u3059\uFF01\n\uFF62\u30C9\u30DF\u30C8\u30EC\u30B9\u30AF\u592B\u4EBA\uFF63\uFF1A\u300E\u30D0\u30A4\u30AA\u30CF\u30B6\u30FC\u30C9\u3000\u30F4\u30A3\u30EC\u30C3\u30B8\u300F\n\u7D0D\u5F97\u306E\u7D50\u679C\u3068\u8A00\u3046\u3079\u304D\u3067\u3057\u3087\u3046\u304B\u3002\u4ECA\u5E74\u6700\u3082\u4EBA\u6C17\u306E\u3042\u3063\u305F\u90E8\u9580\u306B\u304A\u3044\u3066\u3001\uFF62\u30AA\u30EB\u30C1\u30FC\u30CA\u30FB\u30C9\u30DF\u30C8\u30EC\u30B9\u30AF\u4F2F\u7235\u592B\u4EBA\uFF63\u306E\u5F97\u7968\u6570\u304C\u4ED6\u306E\u5019\u88DC\u3092\u5727\u5012\u3057\u307E\u3057\u305F\u3002\u6DF1\u3044\u9B45\u529B\u3068\u6050\u6016\u3084\u60AA\u3092\u517C\u306D\u5099\u3048\u305F\u672C\u30B7\u30EA\u30FC\u30BA\u306E\u306A\u304B\u3067\u3082\u3001\u30C9\u30DF\u30C8\u30EC\u30B9\u30AF\u592B\u4EBA\u306F\u969B\u7ACB\u3063\u3066\u3044\u307E\u3057\u305F\u3002\u8D05\u3092\u5C3D\u304F\u3057\u305F\u90B8\u5B85\u306E\u5ECA\u4E0B\u3067\u30D7\u30EC\u30FC\u30E4\u30FC\u306B\u3064\u304D\u307E\u3068\u3044\u3001\u4F38\u7E2E\u81EA\u5728\u306E\u304B\u304E\u722A\u3067\u653B\u6483\u3057\u3001\u53B3\u3057\u3044\u53F1\u8CAC\u3092\u6D74\u3073\u305B\u308B\u306A\u3069\u3001\u30C9\u30DF\u30C8\u30EC\u30B9\u30AF\u592B\u4EBA\u306F\u5FD8\u308C\u304C\u305F\u3044\u5B58\u5728\u611F\u3092\u767A\u63EE\u3057\u307E\u3057\u305F\u3002\n\u300E\u30D0\u30A4\u30AA\u30CF\u30B6\u30FC\u30C9\u3000\u30F4\u30A3\u30EC\u30C3\u30B8\u300F\n\u30D9\u30A4\u30AB\u30FC\u5BB6\u306E\u30AB\u30D3\u81ED\u3044\u30D0\u30A4\u30E6\u30FC\u306E\u5BB6\u304B\u3089\u3001\u30C9\u30DF\u30C8\u30EC\u30B9\u30AF\u57CE\u3092\u53D6\u308A\u56F2\u3080\u5371\u967A\u306A\u5730\u57DF\u307E\u3067\u3001\uFF62\u30A4\u30FC\u30B5\u30F3\u30FB\u30A6\u30A3\u30F3\u30BF\u30FC\u30BA\uFF63\u306B\u306F\u4E00\u606F\u3064\u304F\u6687\u3082\u3042\u308A\u307E\u305B\u3093\u3002\u300E\u30D0\u30A4\u30AA\u30CF\u30B6\u30FC\u30C9\u3000\u30F4\u30A3\u30EC\u30C3\u30B8\u300F\u306E\u30B9\u30C8\u30FC\u30EA\u30FC\u306F\u4E00\u898B\u5358\u7D14\u306A\u3088\u3046\u3067\u3001\u5B9F\u306F\u8907\u96D1\u3067\u3059\u3002\u3072\u3068\u308A\u306E\u7537\u6027\u3068\u65B0\u3057\u3044\u5BB6\u65CF\u3001\u305D\u3057\u3066\u60B2\u5287\u7684\u306A\u904E\u53BB\u304C\u82E6\u96E3\u306B\u6E80\u3061\u305F\u672A\u6765\u3068\u4EA4\u5DEE\u3057\u307E\u3059\u3002\u30A4\u30FC\u30B5\u30F3\u306E\u5A18\u3092\u3081\u3050\u308B\u58EE\u5927\u306A\u65C5\u3092\u4E01\u5BE7\u306B\u69CB\u7BC9\u3057\u305F\u30AB\u30D7\u30B3\u30F3\u306E\u624B\u8155\u306F\u7279\u7B46\u3082\u306E\u3067\u3059\u3002\u7206\u767A\u7684\u306A\u30D5\u30A3\u30CA\u30FC\u30EC\u306E\u6B8B\u308A\u706B\u304C\u6D88\u3048\u305F\u3042\u3068\u3001\u3053\u306E\u7269\u8A9E\u304C\u9759\u304B\u306A\u5BB6\u306E\u306A\u304B\u3067\u4E00\u4F53\u3069\u306E\u3088\u3046\u306B\u59CB\u307E\u3063\u305F\u306E\u304B\u3068\u3001\u4E0D\u601D\u8B70\u306A\u6C17\u6301\u3061\u306B\u306A\u308B\u304B\u3082\u3057\u308C\u307E\u305B\u3093\u3002\n\u300E\u30E9\u30C1\u30A7\u30C3\u30C8\uFF06\u30AF\u30E9\u30F3\u30AF
+    \u30D1\u30E9\u30EC\u30EB\u30FB\u30C8\u30E9\u30D6\u30EB\u300F\n\u30D9\u30B9\u30C8\u30A2\u30FC\u30C8\u30C7\u30A3\u30EC\u30AF\u30B7\u30E7\u30F3\u8CDE\u306E\u7968\u30EC\u30FC\u30B9\u306F\u30CF\u30E9\u30CF\u30E9\u3059\u308B\u5C55\u958B\u3067\u3057\u305F\u304C\u3001\u300E\u30E9\u30C1\u30A7\u30C3\u30C8\uFF06\u30AF\u30E9\u30F3\u30AF
+    \u30D1\u30E9\u30EC\u30EB\u30FB\u30C8\u30E9\u30D6\u30EB\u300F\u304C\u9996\u4F4D\u3092\u596A\u53D6\u3057\u307E\u3057\u305F\u3002PlayStation\xAE2\u7248\u306E\u7B2C1\u4F5C\u76EE\u3088\u308A\u3001Insomniac
+    Games\u304C\u78E8\u304D\u7D9A\u3051\u3066\u304D\u305F\u9280\u6CB3\u3092\u821E\u53F0\u3068\u3059\u308B\u9BAE\u3084\u304B\u306A\u30A2\u30FC\u30C8\u30B9\u30BF\u30A4\u30EB\u304C\u3001\u30B7\u30EA\u30FC\u30BA\u521D\u3068\u306A\u308BPS5\u30BF\u30A4\u30C8\u30EB\u306E\u8F1D\u304D\u3092\u652F\u3048\u3066\u3044\u307E\u3059\u3002\u30E9\u30C1\u30A7\u30C3\u30C8\u3068\u30AF\u30E9\u30F3\u30AF\u306E\u8868\u60C5\u3092\u3055\u3089\u306B\u8C4A\u304B\u306B\u3057\u3066\u3044\u308B\u306E\u306F\u3001\u65B0\u305F\u306A\u30EC\u30D9\u30EB\u306B\u9054\u3057\u305F\u7DFB\u5BC6\u306A\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3002PS5\u306E\u8D85\u9AD8\u901FSSD\u306F\u4E07\u83EF\u93E1\u306E\u3088\u3046\u306A\u885D\u7A81\u3092\u6F14\u51FA\u2015\u2015\u6B21\u5143\u304C\u3059\u3070\u3084\u304F\u3076\u3064\u304B\u308A\u5408\u3046\u69D8\u5B50\u3068\u82B8\u8853\u7684\u306A\u30B3\u30F3\u30C8\u30E9\u30B9\u30C8\u3092\u751F\u307F\u51FA\u3057\u307E\u3057\u305F\u3002\u58EE\u5927\u306A\u30B9\u30B1\u30FC\u30EB\u306E\u5192\u967A\u3067\u3042\u308B\u306B\u3082\u304B\u304B\u308F\u3089\u305A\u3001\u71B1\u72C2\u7684\u306A\u30B2\u30FC\u30E0\u30D7\u30EC\u30A4\u304B\u3089\u6620\u753B\u306E\u3088\u3046\u306A\u30AB\u30C3\u30C8\u30B7\u30FC\u30F3\u3078\u306E\u8EE2\u63DB\u306F\u5B9F\u306B\u6ED1\u3089\u304B\u3067\u3059\u30022\u4F4D\u306F\u30BE\u30C3\u3068\u3059\u308B\u3088\u3046\u306A\u5834\u9762\u63CF\u5199\u306E\u300E\u30EA\u30C8\u30EB\u30CA\u30A4\u30C8\u30E1\u30A22\u300F\u30013\u4F4D\u306F\u201C\u30EA\u30C8\u30EB\u30FB\u30D4\u30FC\u30D7\u30EB\u3001\u30D3\u30C3\u30B0\u30FB\u30EF\u30FC\u30EB\u30C9(\u5927\u304D\u306A\u4E16\u754C\u306E\u5C0F\u3055\u306A\u4EBA\u9593)\u201D\u306E\u7F8E\u3057\u3044\u8868\u73FE\u304C\u9B45\u529B\u7684\u306A\u300EIt
+    Takes Two\u300F\u304C\u7372\u5F97\u3057\u307E\u3057\u305F\u3002\n\u300EMarvel\u2019s
+    Guardians of the Galaxy\u300F\n\u300EMarvel\u2019s Guardians of the Galaxy\u300F\u306E\u7656\u306B\u306A\u308B\u9B45\u529B\u306F\u3001\u6B6F\u5207\u308C\u306E\u3044\u3044\u4F1A\u8A71\u3084\u3001\u76EE\u3092\u898B\u5F35\u308B\u3088\u3046\u306A\u30A8\u30A4\u30EA\u30A2\u30F3\u306E\u63CF\u5199\u3060\u3051\u306B\u7559\u307E\u308A\u307E\u305B\u3093\u3002Eidos-Montr\xE9al\u306F\u30011980\u5E74\u4EE3\u306B\u30D2\u30C3\u30C8\u30C1\u30E3\u30FC\u30C8\u3092\u5E2D\u5DFB\u3057\u305F\u30CA\u30F3\u30D0\u30FC\u3092\u8A70\u3081\u8FBC\u307F\u3001\u305D\u306E\u5727\u5012\u7684\u306A\u8208\u596E\u3092\u30B2\u30FC\u30E0\u30D7\u30EC\u30A4\u3067\u3082\u5B9F\u73FE\u3002\u3055\u3089\u306B\u306F\u3001\u73FE\u4EE3\u306E\u30D8\u30D3\u30FC\u30E1\u30BF\u30EB\u30D5\u30A1\u30F3\u306B\u3082\u9055\u548C\u611F\u306A\u304F\u53D7\u3051\u5165\u308C\u3089\u308C\u308B\u3001\u67B6\u7A7A\u306E80\u5E74\u4EE3\u30E1\u30BF\u30EB\u30D0\u30F3\u30C9\u3092\u767B\u5834\u3055\u305B\u307E\u3057\u305F\u3002\u6226\u95D8\u3084\u5192\u967A\u30B7\u30FC\u30F3\u306E\u306A\u306B\u3052\u306A\u3044\u97F3\u306B\u3082\u3001\u3053\u3060\u308F\u308A\u304C\u611F\u3058\u3089\u308C\u307E\u3059\u3002\n\u300EIt
+    Takes Two\u300F\n\u96E2\u5A5A\u3068\u548C\u89E3\u3092\u3081\u3050\u308B\u611F\u52D5\u306E\u30B9\u30C8\u30FC\u30EA\u30FC\u3001\u5197\u8AC7\u597D\u304D\u306E\u201C\u558B\u308B\u672C\u201D\u3001\u898F\u5F8B\u6B63\u3057\u3044\u30EA\u30B9\u306E\u8ECD\u968A\u306A\u3069\u2015\u2015\u300EIt
+    Takes Two\u300F\u304C\u8A87\u308B\u6570\u3042\u308B\u898B\u3069\u3053\u308D\u304C\u304B\u3059\u3093\u3067\u3057\u307E\u3046\u304F\u3089\u3044\u3001\u672C\u4F5C\u306E\u30B2\u30FC\u30E0\u30D7\u30EC\u30A4\u306F\u9BAE\u70C8\u306A\u5370\u8C61\u3092\u6B8B\u3057\u307E\u3057\u305F\u3002Hazelight
+    Studios\u304C\u4ED5\u639B\u3051\u308B\u3053\u306E\u30B8\u30E3\u30F3\u30EB\u3092\u8D8A\u3048\u305F\u5192\u967A\u306F\u3001\u3075\u305F\u308A\u5354\u529B\u30D7\u30EC\u30A4\u304C\u57FA\u672C\u3067\u3059\u3002\u30D1\u30FC\u30C8\u30CA\u30FC\u306E\u9053\u3092\u4F5C\u308B\u305F\u3081\u306B\u58C1\u306B\u91D8\u3092\u6253\u3061\u4ED8\u3051\u3066\u3044\u308B\u3068\u304D\u3082\u3001\u6642\u9593\u3092\u5DFB\u304D\u623B\u3057\u3066\u6B7B\u304B\u3089\u6551\u3046\u3068\u304D\u3082\u3001\u30AB\u30A8\u30EB\u306B\u4E57\u3063\u3066\u5EAD\u3092\u4E00\u7DD2\u306B\u79FB\u52D5\u3059\u308B\u3068\u304D\u3082\u3001\u3053\u306E\u697D\u3057\u3044\u5192\u967A\u306E\u508D\u3089\u306B\u306F\u3001\u3044\u3064\u3082\u76F8\u68D2\u304C\u3044\u307E\u3059\u3002\u767B\u5834\u3057\u3066\u9593\u3082\u306A\u3044\u4F5C\u54C1\u3067\u3059\u304C\u3001\u3059\u3067\u306B\u30DE\u30EB\u30C1\u30D7\u30EC\u30FC\u30E4\u30FC\u306E\u6BBF\u5802\u5165\u308A\u3067\u3059\u3002\n\u300EFIFA
+    22\u300F\n\u6B21\u4E16\u4EE3\u306E\u30B5\u30C3\u30AB\u30FC\u4F53\u9A13\u3092\u76EE\u6307\u3057\u305FEA\u306E\u300EFIFA
+    22\u300F\u306F\u3001\u305D\u306E\u671F\u5F85\u306B\u9055\u308F\u306C\u51FA\u6765\u3067\u3057\u305F\u3002HyperMotion\u30C6\u30AF\u30CE\u30ED\u30B8\u30FC\u306F\u3001\u3055\u3089\u306B\u30EA\u30A2\u30EB\u3067\u6ED1\u3089\u304B\u306A\u30B5\u30C3\u30AB\u30FC\u4F53\u9A13\u3092\u3082\u305F\u3089\u3057\u30013D\u30AA\u30FC\u30C7\u30A3\u30AA\u306F\u30D7\u30EC\u30FC\u30E4\u30FC\u3092\u304B\u3064\u3066\u306A\u3044\u307B\u3069\u8A66\u5408\u306B\u5F15\u304D\u8FBC\u307F\u307E\u3059\u3002\u3053\u308C\u306BDualSense\u2122
+    \u30EF\u30A4\u30E4\u30EC\u30B9\u30B3\u30F3\u30C8\u30ED\u30FC\u30E9\u30FC\u306E\u30CF\u30D7\u30C6\u30A3\u30C3\u30AF\u30D5\u30A3\u30FC\u30C9\u30D0\u30C3\u30AF\u3068\u30A2\u30C0\u30D7\u30C6\u30A3\u30D6\u30C8\u30EA\u30AC\u30FC\u304C\u52A0\u308F\u308B\u3053\u3068\u3067\u3001\u30D4\u30C3\u30C1\u3067\u7E70\u308A\u5E83\u3052\u3089\u308C\u308B\u8A66\u5408\u3092\u624B\u306B\u53D6\u308B\u3088\u3046\u306B\u611F\u3058\u3089\u308C\u307E\u3059\u3002EA\u306F\u30B7\u30EA\u30FC\u30BA\u3067\u6700\u3082\u30EA\u30A2\u30EB\u306A\u30B5\u30C3\u30AB\u30FC\u4F53\u9A13\u3092\u5B9F\u73FE\u3057\u307E\u3057\u305F\u3002\nGhost
+    of Tsushima: Director\u2019s Cut\u300F\n\u30B5\u30C3\u30AB\u30FC\u30D1\u30F3\u30C1\u30FB\u30D7\u30ED\u30C0\u30AF\u30B7\u30E7\u30F3\u30BA\u306E\u300EGhost
+    of Tsushima: Director\u2019s Cut\u300F\u3067\u306F\u3001\u6570\u3005\u306E\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8\u3068\u3068\u3082\u306B\u3001\u30B2\u30FC\u30E0\u306E\u30A2\u30AF\u30BB\u30B7\u30D3\u30EA\u30C6\u30A3\u3082\u5927\u5E45\u306B\u6539\u5584\u3055\u308C\u3066\u3044\u307E\u3059\u30024\u3064\u306E\u65B0\u3057\u3044\u30D7\u30EA\u30BB\u30C3\u30C8\u30B3\u30F3\u30C8\u30ED\u30FC\u30EB\u30EC\u30A4\u30A2\u30A6\u30C8\u3001\u30C6\u30AD\u30B9\u30C8\u3068\u5B57\u5E55\u30B5\u30A4\u30BA\u306E\u62E1\u5927\u3001\u6575\u3092\u30ED\u30C3\u30AF\u30AA\u30F3\u3059\u308B\u30AA\u30D7\u30B7\u30E7\u30F3\u3001DualSense
+    \u30EF\u30A4\u30E4\u30EC\u30B9\u30B3\u30F3\u30C8\u30ED\u30FC\u30E9\u30FC\u3067\u201C\u98A8\u201D\u306E\u65B9\u5411\u3092\u611F\u3058\u3055\u305B\u308B\u30CF\u30D7\u30C6\u30A3\u30C3\u30AF\u30D5\u30A3\u30FC\u30C9\u30D0\u30C3\u30AF\u306B\u3088\u308B\u8868\u73FE\u306A\u3069\u3001\u307E\u3059\u307E\u3059\u591A\u304F\u306E\u30D7\u30EC\u30FC\u30E4\u30FC\u3092\u5727\u5012\u7684\u306A\u5192\u967A\u306B\u3044\u3056\u306A\u3044\u307E\u3057\u305F\u3002\n\u300E\u30E9\u30C1\u30A7\u30C3\u30C8\uFF06\u30AF\u30E9\u30F3\u30AF
+    \u30D1\u30E9\u30EC\u30EB\u30FB\u30C8\u30E9\u30D6\u30EB\u300F\nDualSense \u30EF\u30A4\u30E4\u30EC\u30B9\u30B3\u30F3\u30C8\u30ED\u30FC\u30E9\u30FC\u3092\u72EC\u5275\u7684\u306A\u6B66\u5668\u306B\u898B\u7ACB\u3066\u3066\u9B45\u529B\u3092\u5F15\u304D\u51FA\u3057\u305F\u30B2\u30FC\u30E0\u30D7\u30EC\u30A4\u306F\u3001\u305D\u308C\u307B\u3069\u591A\u304F\u3042\u308A\u307E\u305B\u3093\u3002\u305D\u3093\u306A\u306A\u304B\u300E\u30E9\u30C1\u30A7\u30C3\u30C8\uFF06\u30AF\u30E9\u30F3\u30AF
+    \u30D1\u30E9\u30EC\u30EB\u30FB\u30C8\u30E9\u30D6\u30EB\u300F\u306F\u3001DualSense
+    \u30EF\u30A4\u30E4\u30EC\u30B9\u30B3\u30F3\u30C8\u30ED\u30FC\u30E9\u30FC\u306E\u30CF\u30D7\u30C6\u30A3\u30C3\u30AF\u30D5\u30A3\u30FC\u30C9\u30D0\u30C3\u30AF\u3068\u30A2\u30C0\u30D7\u30C6\u30A3\u30D6\u30C8\u30EA\u30AC\u30FC\u3092\u5B9F\u306B\u3046\u307E\u304F\u53D6\u308A\u5165\u308C\u307E\u3057\u305F\u2015\u2015\u5A01\u529B\u306E\u5C0F\u3055\u3044\uFF62\u30D0\u30FC\u30B9\u30C8\u30D4\u30B9\u30C8\u30EB\uFF63\u3092\u6483\u3063\u305F\u3068\u304D\u3068\u3001\uFF62\u30CD\u30AC\u30C8\u30ED\u30F3\u30B3\u30E9\u30A4\u30C0\u30FC\uFF63\u306E\u7206\u767A\u7684\u306A\u5A01\u529B\u306E\u9055\u3044\u3092\u3001\u660E\u78BA\u306B\u611F\u3058\u3089\u308C\u308B\u306E\u3067\u3059\u3002Insomniac
+    Games\u306F\u3055\u3089\u306B\u3001R2\u30A2\u30C0\u30D7\u30C6\u30A3\u30D6\u30C8\u30EA\u30AC\u30FC\u306E\u62BC\u3057\u5177\u5408\u306B\u3088\u3063\u3066\u64CD\u4F5C\u3092\u8ABF\u6574\u3067\u304D\u308B\u3088\u3046\u306B\u3057\u3066\u3044\u307E\u3059(50%\u62BC\u3057\u3066\u8ECC\u8DE1\u3092\u8868\u793A\u3057\u3001\u6700\u5F8C\u307E\u3067\u62BC\u3057\u3066\u767A\u5C04\u3059\u308B\u306A\u3069)\u3002\u81E8\u5834\u611F\u3042\u3075\u308C\u308B\u30B2\u30FC\u30E0\u30D7\u30EC\u30A4\u304B\u3089\u30B3\u30F3\u30C8\u30ED\u30FC\u30EB\u6027\u306E\u5411\u4E0A\u307E\u3067\u3001\u305C\u3072\u7686\u3055\u3093\u306E\u624B\u3067\u611F\u3058\u3066\u307F\u3066\u304F\u3060\u3055\u3044\u3002\n\u300E\u30E9\u30C1\u30A7\u30C3\u30C8\uFF06\u30AF\u30E9\u30F3\u30AF
+    \u30D1\u30E9\u30EC\u30EB\u30FB\u30C8\u30E9\u30D6\u30EB\u300F\n\u7686\u3055\u3093\u306E\u6295\u7968\u306E\u7D50\u679C\u3001\u305D\u306E\u5727\u5012\u7684\u306A\u30B2\u30FC\u30E0\u8868\u73FE\u306E\u7F8E\u3057\u3055\u3067\u3001Insomniac
+    Games\u304C\u30D9\u30B9\u30C8\u30A2\u30FC\u30C8\u30C7\u30A3\u30EC\u30AF\u30B7\u30E7\u30F3\u8CDE\u3068\u30D9\u30B9\u30C8\u30B0\u30E9\u30D5\u30A3\u30C3\u30AF\u8CDE\u306E2\u51A0\u3092\u9054\u6210\u3057\u307E\u3057\u305F\u3002\u300E\u30E9\u30C1\u30A7\u30C3\u30C8\uFF06\u30AF\u30E9\u30F3\u30AF
+    \u30D1\u30E9\u30EC\u30EB\u30FB\u30C8\u30E9\u30D6\u30EB\u300F\u306E\u30D5\u30A9\u30C8\u30E2\u30FC\u30C9\u306F\u3001\u672C\u4F5C\u306E\u30C7\u30A3\u30C6\u30FC\u30EB\u3078\u306E\u3053\u3060\u308F\u308A\u3092\u5370\u8C61\u3065\u3051\u308B\u7D20\u6674\u3089\u3057\u3044\u6A5F\u80FD\u3067\u3082\u3042\u308A\u307E\u3059\u3002\u30E9\u30C1\u30A7\u30C3\u30C8\u306E\u7279\u5FB4\u7684\u306A\u9854\u306E\u77ED\u3044\u30E9\u30F3\u30D0\u30C3\u30AF\u30B9\u65CF\u306E\u6BDB\u3084\u3001\u5C0F\u3055\u306A\u8336\u8272\u306E\u9F3B\u306E\u8CEA\u611F\u307E\u3067\u898B\u3066\u53D6\u308C\u307E\u3059\u3002\u3055\u3089\u306B\u3001\u3053\u306E\u30B2\u30FC\u30E0\u306E\u753B\u671F\u7684\u306A\u6B66\u5668\u3092\u30EA\u30A2\u30EB\u306B\u898B\u305B\u308B\u30D3\u30B8\u30E5\u30A2\u30EB\u30A8\u30D5\u30A7\u30AF\u30C8\u3068\u30E9\u30A4\u30C6\u30A3\u30F3\u30B0\u3082\u5727\u5DFB\u3067\u3059\u3002\u5C48\u5F37\u306A\u30DC\u30B9\u306B\uFF62\u30C8\u30D4\u30A2\u30EA\u30FC\u30B9\u30D7\u30EA\u30F3\u30AF\u30E9\u30FC\uFF63\u3092\u767A\u5C04\u3057\u305F\u3068\u304D\u3001\u6575\u304C\u7121\u6570\u306E\u5C0F\u3055\u306A\u843D\u3061\u8449\u3067\u77AC\u6642\u306B\u8986\u308F\u308C\u3066\u3044\u304F\u5149\u666F\u306F\u5FD8\u308C\u304C\u305F\u3044\u3067\u3057\u3087\u3046\u3002\u3053\u3046\u3057\u305F\u3059\u3079\u3066\u306E\u8981\u7D20\u304C\u3001\u7656\u306B\u306A\u308B\u660E\u308B\u3044\u30D3\u30B8\u30E5\u30A2\u30EB\u306B\u7D44\u307F\u8FBC\u307E\u308C\u3066\u3044\u307E\u3059\u3002\n\u300EGhost
+    of Tsushima: Director\u2019s Cut\u300F\n\u300EGhost of Tsushima Director\u2019s
+    Cut\u300F\u306F\u3001\u5358\u306A\u308B\u30EA\u30E1\u30A4\u30AF\u3067\u306F\u3042\u308A\u307E\u305B\u3093\u3002\u30B5\u30C3\u30AB\u30FC\u30D1\u30F3\u30C1\u30FB\u30D7\u30ED\u30C0\u30AF\u30B7\u30E7\u30F3\u30BA\u306E\u83EF\u9E97\u306A\u5192\u967A\u306B\u3001\u307E\u3063\u305F\u304F\u65B0\u3057\u3044\u5CF6\u3067\u306E\u65B0\u305F\u306A\u30B9\u30C8\u30FC\u30EA\u30FC\u30C1\u30E3\u30D7\u30BF\u30FC\u304C\u8FFD\u52A0\u3055\u308C\u3001\u6DF7\u6C8C\u3068\u3057\u305F\u30DE\u30EB\u30C1\u30D7\u30EC\u30A4\u30E2\u30FC\u30C9\uFF62Legends\uFF0F\u51A5\u4EBA\u5947\u8B5A\uFF63\u3082\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8\u3055\u308C\u307E\u3057\u305F\u3002\u305D\u306E\u307B\u304B\u306B\u3082DualSense
+    \u30EF\u30A4\u30E4\u30EC\u30B9\u30B3\u30F3\u30C8\u30ED\u30FC\u30E9\u30FC\u306E\u6A5F\u80FD\u306F\u3082\u3061\u308D\u3093\u3001PlayStation\xAE5\u3067\u3057\u304B\u5F97\u3089\u308C\u306A\u3044\u8D85\u9AD8\u901F\u30ED\u30FC\u30C9\u30013D\u30AA\u30FC\u30C7\u30A3\u30AA\u3001\u9AD8\u89E3\u50CF\u5EA6\u3001\u30D5\u30EC\u30FC\u30E0\u30EC\u30FC\u30C8\u30AA\u30D7\u30B7\u30E7\u30F3\u306B\u5BFE\u5FDC\u3057\u3066\u3044\u307E\u3059\u3002\u300EGhost
+    of Tsushima\u300F\u306F\u5E38\u306B\u606F\u3092\u306E\u3080\u3088\u3046\u306A\u4F53\u9A13\u304C\u5F97\u3089\u308C\u308B\u3053\u3068\u304C\u7279\u5FB4\u3067\u3059\u304C\u3001\u300EGhost
+    of Tsushima Director\u2019s Cut\u300F\u3067\u306F\u3001\u3055\u3089\u306A\u308B\u9032\u5316\u3092\u5B9F\u73FE\u3057\u3066\u3044\u307E\u3059\u3002\n\u300EKena:
+    Bridge of Spirits\u300F\n\u3053\u306E\u90E8\u9580\u306F\u6700\u3082\u63A5\u6226\u3068\u306A\u308A\u3001\u6295\u7968\u671F\u9593\u4E2D\u306F\u3075\u305F\u3064\u306E\u30B2\u30FC\u30E0\u304C\u50C5\u5DEE\u3067\u4E26\u3076\u5C55\u958B\u3067\u3057\u305F\u3002\u6700\u7D42\u7684\u306B\u300EKena:
+    Bridge of Spirits\u300F\u304C\u30D7\u30E9\u30C1\u30CA\u30C8\u30ED\u30D5\u30A3\u30FC\u3001\u300EHades\u300F\u304C\u30B4\u30FC\u30EB\u30C9\u30C8\u30ED\u30D5\u30A3\u30FC\u306B\u8F1D\u304D\u307E\u3057\u305F\u3002\u30B7\u30EB\u30D0\u30FC\u3092\u7372\u5F97\u3057\u305F\u306E\u306F\u300E\u30C9\u30AD\u30C9\u30AD\u6587\u82B8\u90E8\u30D7\u30E9\u30B9\uFF01\u300F\u3001\u30D6\u30ED\u30F3\u30BA\u306F\u300EDisco
+    Elysium\u300F\u3078\u3002\u4ECA\u5E74\u306E\u3053\u306E\u30AB\u30C6\u30B4\u30EA\u30FC\u3067\u306F\u3001\u30A4\u30F3\u30C7\u30A3\u30FC\u30BA\u30B9\u30BF\u30B8\u30AA\u306E\u512A\u308C\u305F\u624B\u8155\u3068\u30B2\u30FC\u30E0\u30D7\u30EC\u30A4\u4F53\u9A13\u306E\u591A\u69D8\u3055\u304C\u5370\u8C61\u306B\u6B8B\u308B\u7D50\u679C\u3068\u306A\u308A\u307E\u3057\u305F\u3002\n\u300E\u30D2\u30C3\u30C8\u30DE\u30F3
+    3\u300F\n\uFF62\u30A8\u30FC\u30B8\u30A7\u30F3\u30C847\uFF63\u306EPlayStation\xAEVR\u3078\u306E\u767B\u5834\u304C\u30D5\u30A1\u30F3\u306B\u5927\u53CD\u97FF\u3060\u3063\u305F\u300E\u30D2\u30C3\u30C8\u30DE\u30F3
+    3\u300F\u306F\u3001\u3053\u306E\u30AB\u30C6\u30B4\u30EA\u30FC\u3067\u5727\u5012\u7684\u306A\u7968\u3092\u96C6\u3081\u307E\u3057\u305F\u3002\u6697\u6BBA\u306E\u4E16\u754C\u3092VR\u306E\u30D7\u30E9\u30C3\u30C8\u30D5\u30A9\u30FC\u30E0\u306B\u5C0E\u5165\u3057\u305F\u3053\u3068\u3067\u3001\u30D7\u30EC\u30FC\u30E4\u30FC\u306FIO
+    Interactive\u306E\u6FC3\u539A\u3067\u7DFB\u5BC6\u306A\u30C7\u30A3\u30C6\u30FC\u30EB\u306E\u30B5\u30F3\u30C9\u30DC\u30C3\u30AF\u30B9\u3092\u582A\u80FD\u3067\u304D\u308B\u3088\u3046\u306B\u306A\u308A\u3001\u307E\u3063\u305F\u304F\u65B0\u3057\u3044\u65B9\u6CD5\u3067\u72EC\u5275\u7684\u306A\u6697\u6BBA\u65B9\u6CD5\u3092\u4F53\u9A13\u3067\u304D\u307E\u3057\u305F\u3002\u3055\u3089\u306B\u3001\u4E88\u60F3\u5916\u306E\u30DC\u30FC\u30CA\u30B9\u3068\u3057\u3066\u3001\u904E\u53BB\u306E2\u4F5C\u54C1\u3082VR\u5BFE\u5FDC\u3057\u307E\u3057\u305F\u3002\n\u300E\u30D0\u30A4\u30AA\u30CF\u30B6\u30FC\u30C9\u3000\u30F4\u30A3\u30EC\u30C3\u30B8\u300F\n\u723D\u5FEB\u306A\u30AC\u30F3\u30D7\u30EC\u30A4\u3001\u8A18\u61B6\u306B\u6B8B\u308B\u51FA\u4F1A\u3044\u3001\u4E88\u671F\u305B\u306C\u5C55\u958B\u306E\u9023\u7D9A\u306A\u3069\u3001\u30AB\u30D7\u30B3\u30F3\u304C\u4ED5\u639B\u3051\u308B\u30A4\u30FC\u30B5\u30F3\u30FB\u30A6\u30A3\u30F3\u30BF\u30FC\u30BA\u306E\u30B7\u30EA\u30FC\u30BA\u306B\u8CDE\u8CDB\u304C\u96C6\u307E\u308A\u307E\u3057\u305F\u3002\u3057\u304B\u3057\u3001\u8CDE\u8CDB\u3059\u3079\u304D\u306F\u305D\u308C\u3060\u3051\u3067\u306F\u3042\u308A\u307E\u305B\u3093\u3002\u540C\u30B9\u30BF\u30B8\u30AA\u306F\u5927\u80C6\u306B\u3082\u30014\u4EBA\u306E\u9AD8\u8CB4\u306A\u30DC\u30B9\u304C\u767B\u5834\u3059\u308B\u30B5\u30D6\u30B8\u30E3\u30F3\u30EB4\u3064\u3092\u8907\u96D1\u306B\u7D44\u307F\u5408\u308F\u305B\u3066\u3001\u3072\u3068\u3064\u306E\u58EE\u5927\u30B9\u30C8\u30FC\u30EA\u30FC\u3092\u4F5C\u308A\u4E0A\u3052\u305F\u306E\u3067\u3059\u3002\u300E\u30D0\u30A4\u30AA\u30CF\u30B6\u30FC\u30C9\u3000\u30F4\u30A3\u30EC\u30C3\u30B8\u300F\u3067\u306F\u3001\u3059\u3079\u3066\u306E\u30D7\u30EC\u30FC\u30E4\u30FC\u304C\u6050\u6016\u306E\u30B7\u30FC\u30F3\u3068\u906D\u9047\u3057\u3001\uFF62\u30D0\u30A4\u30AA\u30CF\u30B6\u30FC\u30C9\uFF63\u30B7\u30EA\u30FC\u30BA\u306E\u6B63\u5178\u306E\u65B0\u305F\u306A\u5074\u9762\u3092\u898B\u51FA\u3059\u3053\u3068\u306B\u306A\u308A\u307E\u3059\u3002\n\u300E\u30E9\u30C1\u30A7\u30C3\u30C8\uFF06\u30AF\u30E9\u30F3\u30AF
+    \u30D1\u30E9\u30EC\u30EB\u30FB\u30C8\u30E9\u30D6\u30EB\u300F\n\u300E\u30E9\u30C1\u30A7\u30C3\u30C8\uFF06\u30AF\u30E9\u30F3\u30AF\u300F\u306E\u5FA9\u6D3B\u306F\u3001\u611B\u3059\u3079\u304D\u30B3\u30F3\u30D3\u306E\u5E30\u9084\u3092\u795D\u3046\u3060\u3051\u3067\u306A\u304F\u3001PS5\u306E\u6700\u5148\u7AEF\u30C6\u30AF\u30CE\u30ED\u30B8\u30FC\u3092\u5F15\u304D\u51FA\u3057\u3001DualSense
+    \u30B3\u30F3\u30C8\u30ED\u30FC\u30E9\u30FC\u306E\u81E8\u5834\u611F\u3042\u3075\u308C\u308B\u6A5F\u80FD\u3092\u958B\u653E\u3059\u308B\u3082\u306E\u3068\u306A\u308A\u307E\u3057\u305F\u3002\u6B21\u5143\u3092\u98DB\u3073\u8D8A\u3048\u3066\u60D1\u661F\u3092\u5DE1\u308B\u5192\u967A\u306F\u3001\u30B9\u30EA\u30EA\u30F3\u30B0\u3067\u307E\u3059\u307E\u3059\u72EC\u5275\u6027\u304C\u9AD8\u307E\u308B\u6226\u3044\u3084\u30DF\u30CB\u30B2\u30FC\u30E0\u306A\u3069\u3001\u305F\u304F\u3055\u3093\u306E\u523A\u6FC0\u306B\u3042\u3075\u308C\u3066\u3044\u307E\u3059\u3002\u3082\u3061\u308D\u3093\u3001\u65B0\u305F\u306BPlayStation\xAE\u3092\u8C61\u5FB4\u3059\u308B\u3088\u3046\u306B\u306A\u3063\u305F\uFF62\u30EA\u30D9\u30C3\u30C8\uFF63\u3068\uFF62\u30AD\u30C3\u30C8\uFF63\u306E\u5B58\u5728\u3082\u6B20\u304B\u305B\u307E\u305B\u3093\u3002\n\u300EMarvel\u2019s
+    Spider-Man 2\u300F\n\u300EMarvel\u2019s Spider-Man 2\u300F\u3092\u521D\u516C\u958B\u3057\u305F\uFF62PlayStation\xAEShowcase
+    2021\uFF63\u3067\u306F\u3001\uFF62\u30D4\u30FC\u30BF\u30FC\uFF63\u3068\uFF62\u30DE\u30A4\u30EB\u30BA\uFF63\u306E\u6B21\u56DE\u4F5C\u3092\u5C11\u3057\u3060\u3051\u304A\u898B\u305B\u3057\u307E\u3057\u305F\u3002\u305D\u3057\u3066\u6765\u5E74\u3082\u3001\u305F\u304F\u3055\u3093\u306E\u30A8\u30AD\u30B5\u30A4\u30C6\u30A3\u30F3\u30B0\u306A\u30CB\u30E5\u30FC\u30B9\u304C\u63A7\u3048\u3066\u3044\u307E\u3059\u3002\u307E\u305A\u306F\u3001\u300EElden
+    Ring\u300F\u3068\u300EHorizon Forbidden West\u300F\u304C2022\u5E742\u6708\u306B\u767A\u58F2\u3055\u308C\u307E\u3059\u3002\nInsomniac
+    Games\n\u6628\u5E74\u672B\u306B\u767B\u5834\u3057\u305F\u30B9\u30FC\u30D1\u30FC\u30D2\u30FC\u30ED\u30FC\u306E\u30A4\u30F3\u30D1\u30AF\u30C8\u3092\u8003\u3048\u308B\u3068\u3001\u4EEE\u306B\u3053\u306E1\u5E74\u9593\u3001Insomniac\u304C\u9CF4\u308A\u3092\u6F5C\u3081\u3066\u3044\u305F\u3068\u3057\u3066\u3082\u3001\u7121\u7406\u306F\u306A\u3044\u3068\u601D\u3046\u3067\u3057\u3087\u3046\u3002\u3057\u304B\u3057\u3001\u540C\u30B9\u30BF\u30B8\u30AA\u306F2021\u5E74\u3082\u624B\u7DB1\u3092\u7DE9\u3081\u305A\u3001PS5\u306E\u30B7\u30E7\u30FC\u30B1\u30FC\u30B9\u30BF\u30A4\u30C8\u30EB\u3068\u3057\u3066\u300E\u30E9\u30C1\u30A7\u30C3\u30C8\uFF06\u30AF\u30E9\u30F3\u30AF
+    \u30D1\u30E9\u30EC\u30EB\u30FB\u30C8\u30E9\u30D6\u30EB\u300F\u3092\u30EA\u30EA\u30FC\u30B9\u3057\u3001\u3055\u3089\u306B\u6765\u308B\u30B9\u30FC\u30D1\u30FC\u30D2\u30FC\u30ED\u30FC\u4F53\u9A13\u3092\u516C\u958B\u3057\u3066\u3001\u4ECA\u5E74\u3092\u7DE0\u3081\u304F\u304F\u308D\u3046\u3068\u3057\u3066\u3044\u307E\u3059\u3002\u9593\u9055\u3044\u306A\u304F\u30B9\u30BF\u30B8\u30AA\u30FB\u30AA\u30D6\u30FB\u30B6\u30FB\u30A4\u30E4\u30FC\u306B\u3075\u3055\u308F\u3057\u3044\u3067\u3057\u3087\u3046\uFF01"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 6f242c7c163e14311b94a1ab62f924bb, type: 2}
+  m_sharedMaterial: {fileID: 3773715632864374256, guid: 6f242c7c163e14311b94a1ab62f924bb, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &929484283
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929484280}
+  m_CullTransparentMesh: 1
+--- !u!1 &1028539660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1028539661}
+  - component: {fileID: 1028539663}
+  - component: {fileID: 1028539662}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1028539661
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028539660}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2054681447}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1028539662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028539660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1028539663
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028539660}
+  m_CullTransparentMesh: 1
+--- !u!1 &1899936237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1899936240}
+  - component: {fileID: 1899936239}
+  - component: {fileID: 1899936238}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1899936238
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899936237}
+  m_Enabled: 1
+--- !u!20 &1899936239
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899936237}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1899936240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899936237}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1938237720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1938237723}
+  - component: {fileID: 1938237722}
+  - component: {fileID: 1938237721}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1938237721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938237720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1938237722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938237720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1938237723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938237720}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2054681443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2054681447}
+  - component: {fileID: 2054681446}
+  - component: {fileID: 2054681445}
+  - component: {fileID: 2054681444}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2054681444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054681443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &2054681445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054681443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &2054681446
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054681443}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &2054681447
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054681443}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1028539661}
+  - {fileID: 929484281}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
