@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.nosuchstudio.rtltmpro": {
+      "version": "https://github.com/pnarimani/RTLTMPro.git?path=/UPMPackage",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "217d9dcdcea721062ed6a59499feab5eec78313f"
+    },
     "com.unity.collab-proxy": {
       "version": "1.7.1",
       "depth": 0,
