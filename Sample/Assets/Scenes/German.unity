@@ -1,0 +1,700 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &93728496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 93728498}
+  - component: {fileID: 93728497}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &93728497
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93728496}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &93728498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93728496}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &793989168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 793989169}
+  - component: {fileID: 793989171}
+  - component: {fileID: 793989170}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &793989169
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793989168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1036464699}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &793989170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793989168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\r\nUSA wollen zum Mars\r\nDas Land USA will wieder Menschen auf den Mond
+    bringen. Von dort aus sollen die Menschen dann irgendwann weiter fliegen zu dem
+    Planeten Mars.\r\nDer Pr\xE4sident von den USA hei\xDFt Donald Trump. Er hat
+    gesagt: Wir wollen den Mond erforschen. Au\xDFerdem wollen wir bald Menschen
+    zum Mars bringen. Und vielleicht auch noch zu anderen Orten im Welt-Raum.\r\nVorher
+    haben die USA gesagt: Es ist sehr teuer, in den Welt-Raum zu fliegen. Wir geben
+    lieber mehr Geld f\xFCr andere Sachen aus. Das will Donald Trump \xE4ndern.\r\nMenschen,
+    die im Welt-Raum arbeiten, nennt man Astronauten oder Kosmonauten. Vor fast 50
+    Jahren ist zum letzten Mal ein Astronaut auf dem Mond gewesen. Auf dem Mars ist
+    noch nie ein Mensch gewesen. Deshalb wei\xDF man nicht so viel \xFCber den Mars.\r\nEs
+    gibt auch andere L\xE4nder, die Menschen auf den Mond bringen wollen. Zum Beispiel
+    Russland und China. Fr\xFCher waren \xF6fter Menschen auf dem Mond. Es gab sogar
+    einen Wettbewerb, welches Land zuerst jemanden zum Mond fliegt. Der erste Mann
+    auf dem Mond hie\xDF Neil Armstrong aus den USA. Das war im Jahr 1969.\r\n\r\nStudie
+    zeigt so m\xFCde sind die Deutschen wirklich\r\n\r\nDer Wecker klingelt heutzutage
+    bei den meisten Menschen nach rund acht Stunden Schlaf. Doch wie gut schlafen
+    die Deutschen wirklich? Neueste Studien berichten.\r\n\r\n\r\nDas Scrollen auf
+    dem Handy oder flimmernde Fernseher halten viele l\xE4nger wach als sie es eigentlich
+    wollen, Wecker rei\xDFen Millionen aus dem Tiefschlaf, Stra\xDFenbeleuchtung
+    macht viele Zimmer zu hell: Der gute Schlaf \u2013 er hat es heutzutage schwer.\r\n\r\n\r\nDer
+    Traum von erholsamer Nachtruhe besch\xE4ftigt t\xE4glich viele Menschen. Eine
+    aktuelle repr\xE4sentative YouGov-Umfrage im Auftrag der Deutschen Presse-Agentur
+    zeigt, wann die Deutschen ins Bett gehen oder auch wie gut oder schlecht sie
+    aus eigener Sicht schlafen. Doch der Reihe nach.\r\n\r\n\"Wer schl\xE4ft, s\xFCndigt
+    nicht \u2013 wer vorher s\xFCndigt, schl\xE4ft besser\", soll Casanova gesagt
+    haben. Unsere Sprache ist voll von Redewendungen und Schlafweisheiten, wie etwa
+    \"Schlaf ist die beste Medizin\".\r\n\r\nAcht Stunden Schlaf: Eine Idee der Industrialisierung\r\n\r\nDer
+    Nachtschlaf am St\xFCck \u2013 gar mit der funktionalen Tagesdreiteilung in acht
+    Stunden Schlaf, acht Stunden Arbeit und acht Stunden Freizeit \u2013 ist eine
+    Idee der Industrialisierung in Europa, wom\xF6glich ein Hirngespinst des Kapitalismus.
+    Die moderne Zeit macht den Schlafbedarf zu einer Art Makel, zum Zeichen angeblicher
+    Faulheit.\r\n\r\nDass es auch anders sein k\xF6nnte, zeigt zum Beispiel der Blick
+    nach Spanien, wo den Leuten die Siesta im modernen Alltag der letzten Jahrzehnte
+    jedoch weitgehend ausgetrieben worden ist.\r\n\r\nDie Japanologin Brigitte Steger
+    (\"Inemuri: Wie die Japaner schlafen und was wir von ihnen lernen k\xF6nnen\")
+    erkl\xE4rte auch hierzulande Japans Ph\xE4nomen des Nickerchens und oberfl\xE4chlichen
+    Kurzschlafs tags\xFCber, etwa in Z\xFCgen oder auf Parkb\xE4nken. Der japanische
+    Begriff \"Inemuri\" setzt sich aus W\xF6rtern f\xFCr \"anwesend sein\" und \"Schlaf\"
+    zusammen.\r\n\r\nHistorikerinnen betonen, dass Schlaf eine K\xF6rperfunktion
+    mit Geschichte sei. Der Schlaf-Wach-Wechsel h\xE4ngt eben nicht nur von k\xF6rpereigenen
+    Faktoren ab, sondern auch von \xE4u\xDFeren \u2013 und der nat\xFCrliche Hell-Dunkel-Rhythmus
+    spielt dabei nur eine geringe Rolle. \r\n\r\nSchlafenszeit ist abh\xE4ngig von
+    der Arbeit\r\n\r\n\"Schlaf ist tief gepr\xE4gt von der Gesellschaft, in der wir
+    leben\", sagt die Historikerin Hannah Ahlheim (\"Der Traum vom Schlaf im 20.
+    Jahrhundert\"). \"Kaum etwas beeinflusst unseren Schlaf so direkt wie unsere
+    Arbeit: Arbeitszeiten bestimmen, wann wir aufstehen und ins Bett gehen.\"\r\n\r\nWer
+    Schichtdienst habe, im Krankenhaus, bei der Polizei, als Reinigungskraft oder
+    Taxifahrerin, m\xFCsse oft nachts arbeiten und tags\xFCber schlafen. Das Erste,
+    was ein Baby lerne, sei, so zu schlafen, dass es den Arbeitsalltag nicht st\xF6re.\r\n\r\n\"Seit
+    der Industrialisierung m\xFCssen wir dabei Schritt halten mit Maschinen, die
+    nie m\xFCde werden\", sagt die Geschichtswissenschaftlerin Ahlheim von der Uni
+    Gie\xDFen. \"Eisenbahnen, Flie\xDFb\xE4nder, auch Tablets und Handys. Die kleinen
+    Ger\xE4te bringen uns heute die Arbeit ans Bett oder sogar ins Bett, gerade in
+    Zeiten des Homeoffice.\"\r\n\r\nUmfragen zeigen: So m\xFCde ist Deutschland vor
+    Mitternacht\r\n\r\nLaut einer neuen repr\xE4sentativen Umfrage im Auftrag der
+    Deutschen Presse-Agentur geht eine Mehrheit der Erwachsenen in Deutschland stets
+    vor Mitternacht ins Bett. So gaben 73 Prozent in der Umfrage des Meinungsforschungsinstituts
+    YouGov an, sie gingen an Arbeitstagen vor 24 Uhr ins Bett (inklusive 21 Prozent,
+    die schon zwischen 18 und 22 Uhr schlafen gehen, wie sie sagen). Auch vor und
+    an arbeitsfreien Tagen geht mehr als jeder Zweite vor Mitternacht ins Bett, n\xE4mlich
+    45 Prozent zwischen 22 und 24 Uhr und 10 Prozent zwischen 18 und 22 Uhr.\r\nDie
+    Qualit\xE4t ihres Schlafs bezeichneten 40 Prozent der Erwachsenen in Deutschland
+    als schlecht. 10 Prozent sagten, sie schliefen \"gar nicht gut\", und 30 Prozent
+    sagten \"eher nicht gut\". M\xE4nner schlafen demnach besser als Frauen: 62 Prozent
+    der m\xE4nnlichen Befragten nannten ihren Schlaf \"eher gut/sehr gut\", bei den
+    Frauen waren es 55 Prozent.\r\nFrauen schlafen im Schnitt schlechter als M\xE4nner\r\nInsgesamt
+    gaben 7 Prozent an, \"nie\" Probleme zum Einschlafen beim haben oder nachts l\xE4nger
+    wach zu liegen. 24 Prozent sagten, das passiere ihnen \"selten\", 33 Prozent
+    \"manchmal\". Immerhin ein Drittel k\xE4mpft mit Schlafproblemen (20 Prozent
+    \"h\xE4ufig\", 14 Prozent \"sehr h\xE4ufig\"). Frauen haben deutlich \xF6fter
+    Schlafprobleme: 40 Prozent der weiblichen Befragten gaben dies zu, bei den M\xE4nnern
+    nur 28 Prozent.\r\nDie durchschnittliche Schlafzeit gaben 41 Prozent mit 7 bis
+    8 Stunden an und ebenso viele mit 5 bis 6 Stunden. Weniger als vier Stunden im
+    Schnitt schlafen 9 Prozent. 3 Prozent machten keine Angabe. Langschl\xE4fer mit
+    mehr als acht Stunden sind in Deutschland nur rund 7 Prozent. Dieser Anteil ist
+    bei Frauen und M\xE4nnern \xFCbrigens gleich.\r\nSchlafrhythmen in der Geschichte\r\nVor
+    gut 20 Jahren r\xFCttelte der amerikanische Historiker und Schlafforscher Robert
+    Ekirch (\"In der Stunde der Nacht: Eine Geschichte der Dunkelheit\") an der Vorstellung,
+    dass im Mittelalter die dunkle Nacht allein zum Schlafen da gewesen sei.\r\nBei
+    Forschungen zu Schlafgewohnheiten in vorindustrieller Zeit war Ekirch in alten
+    Aufzeichnungen wiederholt darauf gesto\xDFen, dass vom \"ersten\" und \"zweiten
+    Schlaf\" die Rede war. Es habe jahrhundertelang einen Zwei-Phasen-Schlaf gegeben,
+    schloss er daraus.\r\nDer Nachtschlaf von insgesamt sechs bis acht Stunden wurde
+    demnach meist gegen 1 Uhr morgens unterbrochen, um ein paar Stunden Zeit f\xFCr
+    sich zu haben \u2013 zum Nachdenken, Reden, Beten, Spielen oder f\xFCr Sex. Danach
+    sei dann nochmal weitergeschlafen worden.\r\nDie Frankfurter Historikerin Birgit
+    Emich untersuchte die Schlafgewohnheiten der Menschen in der Fr\xFChen Neuzeit.
+    Emich ermittelte zum Beispiel aus Zunftordnungen des 16. bis 18. Jahrhunderts,
+    dass Handwerker zwischen circa f\xFCnf Uhr morgens und acht Uhr abends arbeiteten,
+    also vermutlich zwischen neun am Abend und halb f\xFCnf in der Fr\xFCh schliefen.
+    Dies deckt sich auch in etwa mit den Sperrzeiten der St\xE4dte in dieser Zeit,
+    die europaweit erstaunlich gleich waren: Abends um neun wurden die Tore geschlossen.\r\nSo
+    angesehen war die Schlafenszeit\r\nVon den H\xF6fen der Herrscher ging dann ab
+    dem 17. Jahrhundert ein Wandel aus. Die Schlafenszeit wurde zum Distinktionsmittel,
+    zu einem wichtigen Unterscheidungsmerkmal und einer Art Statussymbol.\r\n\"Der
+    h\xF6fische Adel distanzierte sich durch abendliche Aktivit\xE4ten ebenso von
+    anderen Schichten wie die Kaufleute in den St\xE4dten\", sagt Emich. \"Die Eroberung
+    der Nacht durch die h\xF6fische Festkultur sorgte daf\xFCr, dass sich dieser
+    Prozess beschleunigte und sozial ausweitete.\"\r\n\r\n \r\n\r\n\r\n\r\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &793989171
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793989168}
+  m_CullTransparentMesh: 1
+--- !u!1 &795435136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 795435139}
+  - component: {fileID: 795435138}
+  - component: {fileID: 795435137}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &795435137
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795435136}
+  m_Enabled: 1
+--- !u!20 &795435138
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795435136}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &795435139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795435136}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1036464699}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1036464698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1036464699}
+  - component: {fileID: 1036464702}
+  - component: {fileID: 1036464701}
+  - component: {fileID: 1036464700}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1036464699
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036464698}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 793989169}
+  m_Father: {fileID: 795435139}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1036464700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036464698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1036464701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036464698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1036464702
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036464698}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!1 &1327396584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1327396587}
+  - component: {fileID: 1327396586}
+  - component: {fileID: 1327396585}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1327396585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327396584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1327396586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327396584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1327396587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327396584}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

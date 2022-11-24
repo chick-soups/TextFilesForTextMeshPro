@@ -18,13 +18,13 @@ public class UpgradeCharactorFileWinow : EditorWindow
   private void OnGUI() {
     GUILayout.BeginHorizontal();
     if(GUILayout.Button("Charactor File:",GUILayout.Width(200))){
-        m_CharactorFilePath =     EditorUtility.OpenFilePanel("Charactor File",null,"txt");
+        m_CharactorFilePath =     EditorUtility.OpenFilePanel("Charactor File",m_CharactorFilePath,"txt");
     }
     GUILayout.Label(m_CharactorFilePath);
     GUILayout.EndHorizontal();
       GUILayout.BeginHorizontal();
     if(GUILayout.Button("Pick charactor form:",GUILayout.Width(200))){
-        m_targetFile =     EditorUtility.OpenFilePanel("Charactor File",null,"txt");
+        m_targetFile =     EditorUtility.OpenFilePanel("Charactor File",m_targetFile,"txt");
     }
     GUILayout.Label(m_targetFile);
     GUILayout.EndHorizontal();
